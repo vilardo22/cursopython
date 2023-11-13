@@ -73,9 +73,9 @@
 
 #Faça um programa que leia largura e altura da parede em mtrs e calcule a area e quanto de tinta vai usar
 
-larg = float(input('Largura da parede:'))
-alt = float (input('Altura da parede:'))
-área = larg * alt
-print('Sua parede tem a dimensão de {}x{} e sua área é de {}m2.'.format(larg, alt, área))
-tinta = área / 2
+larg = float(input('Largura da parede: '))
+alt = float(input('Altura da parede: '))
+area = larg * alt
+print('Sua parede tem a dimensão de {}x{} e sua área é de {}m2.'.format(larg, alt, area))
+tinta = area / 2
 print('Para pintar essa parede, você precisa de {}L de tinta.'.format(tinta))
